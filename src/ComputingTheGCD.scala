@@ -8,6 +8,10 @@ object ComputingTheGCD {
   /** This part handles the input/output. Do not change or modify it * */
   def acceptInputAndComputeGCD(pair: List[Int]) = {
     println(gcd(pair.head, pair.reverse.head))
+    /*
+    It could be option also
+    println(gcd(pair(0), pair(1)))
+    */
   }
 
   def main(args: Array[String]) {
