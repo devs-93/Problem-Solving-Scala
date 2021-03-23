@@ -12,6 +12,7 @@ object ComputingTheGCD {
 
   def main(args: Array[String]) {
     /** The part relates to the input/output. Do not change or modify it * */
-    acceptInputAndComputeGCD(readLine().trim().split(" ").map(x => x.toInt).toList)
+    val stdin = scala.io.StdIn
+    acceptInputAndComputeGCD(stdin.readLine().trim().split(" ").map(x => x.toInt).toList)
   }
 }
