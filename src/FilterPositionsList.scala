@@ -1,5 +1,5 @@
 object FilterPositionsList extends App {
-  def f(arr: List[Int]) = {
+  def f(arr: List[Int]):List[Int] = {
     val filterPositionsList = arr.zipWithIndex
     val oddDataList = filterPositionsList.filter(x => (x._2 % 2 != 0)).map(x=>x._1)
     oddDataList
