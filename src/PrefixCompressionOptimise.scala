@@ -9,7 +9,6 @@ object PrefixCompressionOptimise {
     println(cm.length + " " + cm)
     println(xp.length + " " + xp)
     println(yp.length + " " + yp)
-
   }
 
   def applyCompress(firstString: String, secondString: String): (String, String, String) = {
