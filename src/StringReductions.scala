@@ -6,10 +6,12 @@ object StringReductions {
 
 
     def stringReductionFunction(stringToReduce: String, reducedString: String): String = {
-      if (stringToReduce.isEmpty) {
+      if (stringToReduce.isEmpty)
+      {
         reducedString
       }
-      else if (reducedString.contains(stringToReduce.head)) {
+      else if (reducedString.contains(stringToReduce.head))
+      {
         stringReductionFunction(stringToReduce.tail, reducedString)
       }
       else {
